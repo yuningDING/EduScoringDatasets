@@ -1,0 +1,67 @@
+- name: "ASAP-AES"
+  hidden: false
+  link: "https://www.kaggle.com/c/asap-aes"
+  population: "high school students (grade 7 to 10)"
+  language: "English"
+  task: "Essay"
+  modality: "?"
+  prompts: 7
+  answers: 13000
+  scores: "varies per prompt (holistic only)"
+
+- name: "ASAP-AES++"
+  hidden: false
+  link: "https://lwsam.github.io/ASAP++/lrec2018.html"
+  paper: "https://aclanthology.org/L18-1187.pdf"
+  population: "high school students (grade 7 to 10)"
+  language: "English"
+  task: "Essay"
+  modality: "?"
+  prompts: 6
+  answers: 13000
+  scores: "varies per prompt (with fine-grained traits)"
+
+- name: "Kaggle ELL Feedback Prize"
+  hidden: false
+  link: "https://github.com/scrosseye/ELLIPSE-Corpus"
+  paper: "https://www.kaggle.com/competitions/feedback-prize-english-language-learning"
+  population: "high school students (grade 8 to 12)"
+  language: "English"
+  task: "Essay"
+  modality: "?"
+  prompts: 1
+  answers: 2700
+  scores: "1-5 for 6 trait scores"
+
+- name: "ASAP-SAS"
+  hidden: false
+  link: "https://www.kaggle.com/c/asap-sas"
+  population: "high school students (mainly grade 10)"
+  language: "English"
+  task: "Short-answers (SLA, biology, sciences)"
+  modality: "?"
+  prompts: 10
+  answers: ""
+  scores: "0-2/0-3"
+
+- name: "ASAP-DE"
+  hidden: false
+  paper: "https://www.aclweb.org/anthology/W18-0550/"
+  population: "crowdworkers (unclear)"
+  language: "German"
+  task: "Short-answers (SLA, biology, sciences)"
+  modality: "typewritten"
+  prompts: 3
+  answers: 903
+  scores: "0-2/0-3"
+
+- name: "Powergrading"
+  hidden: false
+  paper: "https://www.microsoft.com/en-us/research/wp-content/uploads/2013/10/powergrading_TACL_Basu_Jacobs_Vanderwende.pdf"
+  population: "unclear"
+  language: "English"
+  task: "short-answers (US immigration test)"
+  modality: "typewritten"
+  prompts: 10
+  answers: 6980
+  scores: "binary"
